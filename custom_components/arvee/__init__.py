@@ -2,7 +2,7 @@ import homeassistant.core as ha
 
 import voluptuous as vol
 
-from timezonefinder import TimezoneFinder
+from timezonefinderL import TimezoneFinder
 from homeassistant import core
 from homeassistant.helpers import config_validation as cv
 from homeassistant.helpers.service import async_register_admin_service
