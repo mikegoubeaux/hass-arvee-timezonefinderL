@@ -2,7 +2,7 @@
   "codeowners": ["@ThisSmartHouse"],
   "config_flow": false,
   "dependencies": [],
-  "documentation": "https://github.com/ThisSmartHouse/hass-arvee",
+  "documentation": "https://github.com/mikegoubeaux/hass-arvee-timezonefinderL",
   "domain": "arvee",
   "iot_class": "assumed_state",
   "name": "Arvee",
