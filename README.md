@@ -10,6 +10,10 @@ This component will likely continue to expand in functionality specifically for 
 
 The library uses the Python `timezonefinder` package to look up timezones completely offline. It takes a pretty good amount of time to load the first time because it has to build the database.
 
+### NOTE ON TIMEZONEFINDER
+
+This fork of hass-arvee uses [timezonefinderL](https://pypi.org/project/timezonefinderL/) in place of timezonefinder. This is lighter weight and compiles on Home Assistant OS running on Raspberry Pi.
+
 ### NOTE ON CONTAINER-BASED HOME ASSISTANT
 
 The `timezonefinder` package requires the container to have compilers and build tools to install. You can read [here](https://github.com/home-assistant/core/issues/87682) as to why. To fix this you can log into the container with an interactive shell and install them manually:
